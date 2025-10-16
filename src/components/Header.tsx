@@ -2,9 +2,9 @@ import React from "react";
 
 const navLinks = [
   { name: "Inicio", href: "#inicio" },
-  { name: "Projects", href: "#projects" },
-  { name: "About", href: "#about" },
-  { name: "Contact", href: "#contact" },
+  { name: "Proyectos", href: "#proyectos" },
+  { name: "Sobre mí", href: "#sobre-mi" },
+  { name: "Contacto", href: "#contacto" },
 ];
 
 const Header: React.FC = () => (
