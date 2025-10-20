@@ -4,15 +4,15 @@ import FadeInSection from "./FadeInSection";
 
 const HeroSection = () => {
   return (
-    <section id="inicio" className="h-screen">
+    <section id="inicio" className="min-h-screen">
       <FadeInSection>
-        <div className="h-full flex flex-col items-center justify-center space-y-8">
+        <div className="h-full flex flex-col items-center md:pt-24 pt-28 space-y-8">
           <Image
             src="/profile.png"
             alt="Logo"
-            width={120}
-            height={120}
-            className="rounded-full"
+            width={140}
+            height={140}
+            className="rounded-full  md:w-[120] md:h-[120]"
           />
           <div className="text-center flex flex-col space-y-2 px-2">
             <h1 className="text-lg">
@@ -27,7 +27,7 @@ const HeroSection = () => {
               aplicaciones web modernas, funcionales y atractivas.
             </p>
           </div>
-          <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
+          <div className="flex flex-col sm:flex-row justify-center items-center gap-8">
             <Button
               onClick={() =>
                 (window.location.href =
