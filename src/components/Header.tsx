@@ -21,10 +21,10 @@ const Header: React.FC = () => {
       <div className="flex justify-between md:justify-center items-center w-full">
         <button
           onClick={() => setMenuOpen(true)}
-          className="md:hidden text-gray-700 hover:text-gray-900 dark:text-gray-200 cursor-pointer"
+          className="md:hidden text-gray-700 dark:text-gray-200 cursor-pointer"
           aria-label="Open menu"
         >
-          <Bars3Icon className="size-8 stroke-1.5" />{" "}
+          <Bars3Icon className="size-8 stroke-1.5" />
         </button>
         <nav className="hidden md:flex space-x-8">
           {navLinks.map((link) => (
@@ -59,7 +59,7 @@ const Header: React.FC = () => {
               <div className="flex items-center p-3 justify-end">
                 <button
                   onClick={() => setMenuOpen(false)}
-                  className="md:hidden dark:text-gray-200 cursor-pointer text-gray-700 hover:text-gray-900"
+                  className="md:hidden dark:text-gray-200 cursor-pointer text-gray-700"
                   aria-label="Close menu"
                 >
                   <XMarkIcon className="size-6 " />
